@@ -1,0 +1,327 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  padding: 1.5rem 0;
+}
+
+.contanier-nav {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.nav-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-ul li {
+  display: inline-block;
+  padding-left: 10rem;
+
+  list-style: none;
+  text-align: center;
+}
+
+.nav-ul li a {
+  text-decoration: none;
+  font-size: 21px;
+  font-weight: 200;
+  color: rgb(86, 87, 88);
+}
+
+.logo h1 {
+  font-size: 3rem;
+  color: #59ab6e;
+}
+
+.banner {
+  background: #f0f0f0;
+}
+
+.contanier {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 0 0 auto;
+  width: 50%;
+  align-self: center;
+  height: auto;
+}
+
+.img-box img {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-banner h1 {
+  color: #59ab6e;
+  font-size: 3.1rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.text-banner span {
+  color: rgb(86, 87, 88);
+  font-weight: 200;
+}
+
+.text-banner h2 {
+  font-weight: 300;
+  margin: 0.5rem 0;
+  font-size: 2rem;
+}
+
+.text-banner p {
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.show-item {
+  margin-top: 5rem;
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.row-show-item {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+
+  margin-bottom: 2rem;
+}
+
+.col-show-item {
+  flex: 0 0 auto;
+  width: 50%;
+  align-items: center;
+
+  margin: 0 auto;
+}
+
+.col-show-item h1 {
+  font-size: 48px;
+  font-weight: 200;
+  margin-bottom: 0.5rem;
+}
+
+.col-show-item p {
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.row-show-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-item {
+  flex: 0 0 auto;
+  width: 33.333%;
+  padding: 3rem;
+}
+
+.col-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 100%;
+}
+
+.col-item h5 {
+  font-size: 24px;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+
+.col-item p a {
+  text-decoration: none;
+  background: #59ab6e;
+  color: white;
+  padding: 0.8rem 1.3rem;
+  border-radius: 5px;
+}
+
+.card-product {
+  background-color: #e9eef5;
+  padding: 5rem 0;
+}
+
+.row-card-product {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.row-card-product h1 {
+  font-size: 48px;
+  font-weight: 200;
+}
+
+.row-card-product p {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.col-text-product {
+  flex: 0 0 auto;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.row-card-product {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.col-card-product {
+  flex: 0 0 auto;
+  width: 33.333%;
+  padding: 0rem 0.5rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.25rem;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-img-product {
+  width: 100%;
+}
+
+.card-body {
+  background: white;
+}
+
+.star-product {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0.8rem;
+  list-style: none;
+  font-size: 1.3rem;
+  color: rgb(228, 231, 6);
+}
+
+.star-product ul li {
+  list-style: none;
+}
+
+.text-muted {
+  list-style: none;
+  color: rgb(193, 196, 196);
+  font-weight: 200;
+}
+
+.card-body a {
+  text-align: left;
+  display: block;
+  margin: 0.8rem;
+  text-decoration: none;
+  color: rgb(122, 121, 121);
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.row-card-product p {
+  font-size: 20px;
+  font-weight: 200;
+  text-align: left;
+  margin: 1rem;
+}
+
+.footer {
+  background-color: #212934 !important;
+  padding: 3rem;
+  color: #cfd6e1 !important;
+  line-height: 2.5;
+}
+
+.row-footer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-footer {
+  flex: 0 0 auto;
+  width: 33.333%;
+}
+
+.col-footer h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #2d343f;
+  margin-right: 2rem;
+}
+
+.header-footer {
+  color: #59ab6e;
+}
+
+.col-footer ul li {
+  list-style: none;
+}
+
+.fa-solid {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.col-footer-border {
+  border-bottom: 1px solid #2d343f;
+  margin-top: 2.3rem;
+  display: block;
+  width: 100%;
+}
+
+.social-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-bottom li i {
+  display: inline-block;
+  margin-right: 2rem;
+  font-size: 2rem;
+  list-style: none;
+  padding: 1.5rem 1rem;
+  border-bottom: 1px solid #2d343f;
+}
+
+.social-bottom li {
+  list-style: none;
+  margin-top: 1.5rem;
+}
+
+.col-footer-bottom {
+  flex: 0 0 auto;
+  width: auto;
+}
+
+.col-footer-bottom-input {
+  flex: 0 0 auto;
+  width: auto;
+}

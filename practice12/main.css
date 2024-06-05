@@ -1,0 +1,485 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url("https://cdn.britannica.com/94/131094-050-8687A599/blossom-fruit-orange.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  width: 100%;
+  position: relative;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+.header-container {
+  max-width: 1170px;
+  height: 90px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 2rem;
+  align-items: center;
+}
+
+.logo {
+  max-width: 150px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.navbar ul li {
+  margin-left: 2.5rem;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.shop i {
+  color: white;
+  margin-right: 0.5rem;
+}
+
+.banner-wapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.banner-wapper p {
+  color: orange;
+  letter-spacing: 7px;
+  font-weight: 500;
+}
+
+.banner-wapper h3 {
+  font-size: 64px;
+  color: white;
+  line-height: 1.3;
+}
+
+.button-box .banner-btn-Fruit-Collection {
+  margin-top: 2rem;
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid orange;
+  border-radius: 50px;
+  background: orange;
+  color: white;
+}
+
+.Contact-Us {
+  margin-top: 2rem;
+  display: inline-block;
+  padding: 10px 25px;
+  border: 2px solid orange;
+  border-radius: 50px;
+  background-color: transparent;
+  color: white;
+  margin-left: 1rem;
+}
+
+.Contact-Us:hover {
+  background-color: orange;
+}
+
+.service-section {
+  padding: 80px 0;
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.row-service {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col-lg3 {
+  flex: 0 0 33.33%;
+  width: 33.333%;
+}
+
+.blox-flex-align-item-center {
+  display: flex;
+  align-items: center;
+}
+
+.blox-flex-align-item-center .list-icon i {
+  display: flex;
+  margin-right: 2rem;
+  width: 65px;
+  height: 65px;
+  color: #f28123;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  border: 2px #f28123 dotted;
+  border-radius: 999px;
+}
+
+.content {
+  line-height: 1.5;
+}
+
+.content p {
+  color: #979595;
+}
+
+.product-section {
+  margin: 150px 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+}
+
+.col-lg-8 {
+  text-align: center;
+
+  flex: 66%;
+}
+.section-title {
+  text-align: center;
+}
+
+.section-title h3 {
+  position: relative;
+  font-size: 40px;
+  line-height: 1.3;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.section-title h3:after {
+  position: absolute;
+  content: "";
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 50px;
+  height: 2px;
+  background-color: #f28123;
+  margin: 0 auto;
+}
+
+.section-title p {
+  display: inline-block;
+  max-width: 530px;
+  text-align: center;
+
+  margin-top: 1.6rem;
+}
+
+.orange-text {
+  color: #f28123;
+}
+
+.col-lg-4 {
+  flex: 0 0 33.333%;
+  max-width: 33.333%;
+  text-align: center;
+}
+
+.product-img img {
+  width: 90%;
+  padding: 30px;
+  padding-bottom: 0;
+}
+
+.single-product-item {
+  box-shadow: 0 0 20px #e4e4e4;
+  padding-bottom: 50px;
+  border-radius: 5px;
+  margin: 50px 15px;
+}
+
+.single-product-item h3 {
+  margin-bottom: 1.5rem;
+  font-size: 20px;
+}
+
+.single-product-item .text-pergk {
+  display: inline;
+  font-size: 20px;
+  margin-bottom: 1rem;
+  color: #888686;
+}
+
+.single-product-item .text-price {
+  margin: 1rem 0;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.cart-btn {
+  display: inline-block;
+  background-color: #f28123;
+  margin-top: 0.5rem;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+}
+
+.cart-btn i {
+  margin-right: 0.5rem;
+}
+
+.cart-banner {
+  background-color: #f5f5f5;
+  position: relative;
+}
+
+.contanier-banner {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.img-column img {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  max-width: 100%;
+}
+
+.row-banner {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.img-column {
+  flex: 0 0 48%;
+  width: 48%;
+  position: relative;
+}
+
+.contant-column {
+  flex: 0 0 auto;
+  max-width: 48%;
+  margin-top: 8rem;
+  padding-top: 10px;
+  margin-left: 2rem;
+}
+
+.contant-column span {
+  color: orange;
+}
+
+.contant-column h3 {
+  font-size: 2.6rem;
+  margin-bottom: 1rem;
+}
+
+.contant-column h4 {
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+
+.contant-column p {
+  margin-bottom: 2rem;
+}
+
+.text-price-banner {
+  padding: 1.5rem;
+  text-align: center;
+  position: absolute;
+  top: 8rem;
+  left: 5rem;
+  line-height: 1.2;
+  background-color: #f28123;
+  border-radius: 100%;
+  border: #eea56a;
+}
+
+.text-price-banner h4 {
+  font-weight: 400;
+  color: #868585;
+}
+
+.text-price-banner h3 {
+  font-size: 1.6rem;
+}
+
+.row-page {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 7rem;
+  margin-bottom: 5rem;
+
+  height: 45vh;
+}
+
+.col-page {
+  flex: 0 0 45%;
+  width: 45%;
+
+  margin: 0 auto;
+}
+
+.abt-bg {
+  position: relative;
+  background: url(pasta-salad-horizontal-jpg-1522265695.jpg);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.col-page p {
+  margin-top: 1.5rem;
+  color: #636262;
+  margin-bottom: 2rem;
+}
+
+.col-page h1 {
+  font-size: 3rem;
+}
+
+.col-page span {
+  color: #f28123;
+}
+
+.col-page .title-page {
+  margin-top: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.cart-btn-page {
+  display: inline-block;
+  background-color: #f28123;
+  margin-top: 0.5rem;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+}
+
+.cart-btn-page:hover {
+  cursor: pointer;
+
+  background: rgb(240, 192, 89);
+}
+
+.container-shop-banner {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.shop-banner {
+  padding-top: 125px;
+  height: 60vh;
+  background-image: url(1.jpg);
+}
+
+.container-shop-banner h3 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.container-shop-banner span {
+  color: #f28123;
+}
+
+.container-shop-banner p {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.cart-btn-page {
+  margin-top: 2rem;
+}
+
+footer {
+  background-color: #051922;
+  padding: 150px 0;
+}
+
+.container-footer {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.row-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col-footer {
+  flex: 0 0 20%;
+  width: 20%;
+
+  margin-right: 2.5rem;
+  color: white;
+}
+
+.col-footer h1 {
+  font-weight: lighter;
+  margin-bottom: 2rem;
+}
+
+.footer-list {
+  list-style: none;
+  opacity: 0.7;
+}
+
+.footer-list li {
+  margin: 1rem 0;
+}
+
+.footer-box-about p {
+  opacity: 0.7;
+}
+
+.footer-box-subscribe p {
+  opacity: 0.7;
+}
+
+form {
+  margin-top: 1rem;
+}
+
+input {
+  padding: 15px;
+  width: 75%;
+  background-color: #012738;
+  border: none;
+}
+
+button {
+  margin-top: 0.5rem;
+  padding: 15px;
+  background-color: #012738;
+  border: none;
+  color: #f28123;
+}

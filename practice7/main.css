@@ -1,0 +1,250 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+:root {
+  --bg-color: #003049;
+  --main-color: #dddada;
+  --text-color: #fff;
+  --bgs-color: #669bbc;
+  --snd-main-color: #780000;
+  --snd-text-color: rgb(78, 77, 77);
+}
+
+nav {
+  padding: 1.6rem;
+  background-color: var(--bg-color);
+}
+
+.nav-box {
+  display: flex;
+  justify-content: space-between;
+  color: var(--text-color);
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.nav-list a {
+  color: var(--text-color);
+  text-decoration: none;
+  margin-left: 2rem;
+  font-size: 1rem;
+}
+
+.logo {
+  font-size: 1.6rem;
+}
+
+.banner {
+  background: url("https://149842022.v2.pressablecdn.com/sparkling/wp-content/uploads/sites/52/2014/01/city-landscape-slider.jpg");
+  height: 30vw;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  align-items: flex-end;
+}
+
+.banner-box {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  padding: 0 30px;
+  bottom: 50px;
+  margin: 0 26.5rem;
+  max-width: 800px;
+  opacity: 0.9;
+  background-color: var(--bgs-color);
+}
+
+.banner-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: var(--text-color);
+  margin: 1rem 0;
+  padding: 0.6rem 0.6rem;
+  background-color: var(--bgs-color);
+  text-align: left;
+}
+
+.banner-desc {
+  padding: 0.6rem 0.6rem;
+  background-color: var(--bgs-color);
+  font-size: 1.1rem;
+  font-weight: lighter;
+  color: var(--text-color);
+  margin-bottom: 1rem;
+}
+
+.cfa {
+  padding: 2rem;
+  background-color: var(--snd-main-color);
+}
+
+.cfa-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cfa-text {
+  font-size: 1.2rem;
+  color: var(--text-color);
+}
+
+.cfa-btn a {
+  font-size: 1.2rem;
+  color: var(--text-color);
+  text-decoration: none;
+  border: 2px solid var(--text-color);
+  padding: 1rem 1rem;
+}
+
+.content-box-con {
+  margin-top: 3rem;
+}
+
+.content-box-content {
+  background-color: var(--text-color);
+  height: 80%;
+  width: 63%;
+  float: left;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  gap: 1rem;
+  outline: 1px solid gainsboro;
+}
+
+.content-box-side {
+  background-color: var(--text-color);
+  height: 41vw;
+  width: 35%;
+  float: right;
+  outline: 1px solid gainsboro;
+  margin-bottom: 1rem;
+}
+
+.content-img img {
+  width: 100%;
+}
+
+.content-box-detail {
+  margin: 2rem 3rem;
+}
+
+.content-title {
+  font-size: 1.8rem;
+  font-weight: bolder;
+  margin-bottom: 0.5rem;
+  color: var(--snd-text-color);
+}
+
+.content-box-detail p {
+  padding: 0.5rem 0.5rem;
+  color: var(--snd-text-color);
+}
+.content-date {
+  margin: 2rem 0;
+  display: flex;
+}
+.content-date i {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  display: inline-flex;
+  padding: 1rem 1rem;
+  background: var(--bg-color);
+  color: var(--text-color);
+  float: right;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.box-side-con h3 {
+  margin: 2rem 2rem;
+}
+
+.logo-box {
+  display: flex;
+  margin-left: 1.7rem;
+}
+
+.logo-box i {
+  font-size: 1.6rem;
+  padding: 0.6rem 0.6rem;
+
+  background: var(--main-color);
+  margin: 0rem 0.3rem;
+}
+
+.logo-box i:hover {
+  background: #669bbc;
+}
+
+.post-con {
+  margin: 5rem 1.8rem;
+
+  width: 17vw;
+  height: 30vw;
+  font-weight: bolder;
+}
+.post-title {
+  font-weight: bolder;
+}
+
+.post {
+  margin-top: 2rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.post-img {
+  width: 85px;
+  height: 60px;
+}
+
+.post-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.post-contect {
+  margin-left: 1rem;
+}
+
+.post {
+  align-items: center;
+}
+
+.post-contect a {
+  text-decoration: none;
+  font-weight: lighter;
+  color: var(--bgs-color);
+  line-height: 1.5;
+}
+
+.post-contect p {
+  text-decoration: none;
+  font-weight: lighter;
+  color: gray;
+  line-height: 1.5;
+}

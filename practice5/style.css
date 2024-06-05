@@ -1,0 +1,248 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    background: url('https://images.unsplash.com/photo-1533579436102-fcc5a403c554?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo  a{
+   font-size: 24px;
+}
+
+button {
+    border: 1px solid white;
+}
+
+.title-info {
+    margin: 3rem 0;
+    width: 500px;
+}
+
+.title-info h3 {
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+.header-bth input{
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    width: 230px;
+    border: 1px solid white;
+}
+
+.header-bth button {
+    
+    padding: 0.5rem;
+    border-radius: 10px;
+    width: 150px;
+    background-color: rgb(5, 183, 253);
+    color: white;
+}
+
+.about-con {
+    padding: 0 10rem;
+
+}
+
+.About {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.about-title {
+    color: rgb(5, 183, 253);
+    font-size: 25px;
+}
+
+.about-decs {
+    color: #808080;
+    margin: 1rem 0;
+
+}
+
+.pricing {
+    background-color: rgb(5, 183, 253);
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.pricing-info h3 {
+    font-size: 2rem;
+    font-weight: lighter;
+    color: #d3d0d0e7;
+}
+
+.pricing-info p {
+    margin: 1rem 0;
+}
+
+.pricing-table {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    margin-top: 3rem;
+}
+
+.pricing-box {
+    background-color: white;
+    color: black;
+    height: 280px;
+}
+
+.pricing-box-title {
+    background-color: rgb(231, 231, 231);
+    padding: 0.5rem 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.pricing-box-info {
+    padding: 1rem 0;
+}
+
+.pricing-box-info p {
+    margin: 0.5rem 0;
+}
+
+.price-blue {
+    font-size: 3rem;
+    color: rgb(5, 183, 253);
+    font-weight: bold;
+}
+
+.pricing-box-btn  {
+    display: inline-block;
+    background-color: rgb(4, 202, 4);
+    color: white;
+    padding: 0.5rem 8rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+.clients {
+    margin-bottom: 2rem;
+}
+.clients-title{
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.clients-title h3{
+    
+    color: rgb(5, 183, 253);
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.clients-title p {
+    margin: 1rem 0;
+}
+
+.clients-grig {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+
+.clients-img {
+    display: flex;
+    align-items: center;
+}
+
+.clients-img img {
+    width: 20%;
+    border-radius: 50%;
+    margin-top: 2rem;
+    margin-right: 1rem;
+}
+
+.newslatter {
+    background-image: url("https://images.unsplash.com/photo-1485988412941-77a35537dae4?q=80&w=2096&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+
+.newslatter-title {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 250px;
+    align-items: center;
+    color: white;
+}
+
+.newslatter-title h3{
+    padding: 0.5rem 0;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.newslatter-title input{
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    width: 300px;
+    margin-right: 1rem;
+}
+
+.newslatter-title button {
+    
+    padding: 0.5rem;
+    border-radius: 10px;
+    width: 150px;
+    background-color: rgb(5, 183, 253);
+    color: white;
+}
+
+footer {
+    background-color: rgb(5, 183, 253);
+    color: white;
+    padding: 1rem;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-menu ul{
+    list-style: none;
+    display: flex;
+}
+
+.footer-menu li {
+    margin-right: 1rem;
+}
+
+.footer-logo a {
+    text-decoration: none;
+    color: white;
+}
